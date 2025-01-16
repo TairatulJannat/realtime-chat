@@ -242,5 +242,23 @@ color: white;
   font-size: 14px;
   color: #333;
 }
+.unread-count {
+  background-color: #ff5722; /* Vibrant red color for emphasis */
+  color: white; /* White text for contrast */
+  font-size: 12px; /* Small size for the badge */
+  font-weight: bold; /* Make the text bold */
+  border-radius: 50%; /* Circular shape */
+  padding: 4px 8px; /* Padding for size and spacing */
+  display: inline-block; /* Ensures proper alignment */
+  min-width: 20px; /* Minimum width to make it a circle */
+  text-align: center; /* Center align the text */
+  margin-left: 10px; /* Add space between the count and the text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
 
+/* Optional: Highlight the unread count when hovered */
+.unread-count:hover {
+  background-color: #e64a19; /* Slightly darker red on hover */
+  cursor: pointer; /* Pointer cursor for interactivity */
+}
   
